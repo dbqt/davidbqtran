@@ -1,0 +1,77 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  color: white;
+  text-align: center;
+  background-color: black;
+
+  padding: 0;
+  margin: 0;
+
+  font-family: 'Titillium Web', sans-serif; 
+}
+
+a {
+  color: orange;
+}
+
+#threedemo {
+  position: fixed;
+  z-index: -1;
+  top: 0; right: 0; bottom: 0; left: 0;
+}
+
+#title {
+  font-weight: 400;
+  font-size: 50px;
+}
+
+#subtitle{
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.header {
+  text-align: left;
+  background: transparent;
+
+  margin-left: 10%;
+  margin-top: 5%; 
+  margin-bottom: 10%;
+
+  position: relative; /* this could be absolute depending on application*/
+  z-index: 1;
+}
+
+.content {
+  padding: 0;
+  margin: 0;
+
+  background: transparent;
+
+  position: relative; /* this could be absolute depending on application*/
+  z-index: 1;
+}
+
+.navbar {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.bottom-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.space {
+  background-color: transparent;
+  height: 100px;
+}
+
+.info {
+  background-color: #222;
+}
+

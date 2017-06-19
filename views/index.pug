@@ -1,5 +1,20 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  div#project.info
+    p Sorry, I'm currently rebuilding the website, it will be back soon!
+    p Meanwhile, you can visit my GitHub and my LinkedIn
+    
+  
+  div.space
+
+  div#contact.info
+    div.container
+      a.github-button(href="https://github.com/dbqt" data-style="mega" aria-label="Follow @dbqt on GitHub") Visit my GitHub
+    div.container
+      a(href="https://ca.linkedin.com/pub/david-binh-quang-tran/47/209/331")
+        img(src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x33.png" width="145" http-equivght="33" border="0" alt="View David Binh Quang Tran's profile on LinkedIn")
+
+
+  // GitHub button
+  script(async defer src="https://buttons.github.io/buttons.js")
