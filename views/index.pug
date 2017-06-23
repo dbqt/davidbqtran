@@ -1,10 +1,23 @@
 extends layout
 
 block content
-  div#project.info
+
+  div.info#project
+    div.row.parentH
+      div.col-sm-4.project-list
+        - var n = 0;
+          div.btn-group-vertical.btn-block(role="group")
+            while n < 20
+              div.btn.btn-default.btn-block.project-btn= n++
+      div.col-sm-8.parentH
+        div.well.parentH
+          p content
+
+  div.space
+
+  div.info
     p Sorry, I'm currently rebuilding the website, it will be back soon!
     p Meanwhile, you can visit my GitHub and my LinkedIn
-    
   
   div.space
 
