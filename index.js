@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 var index = require('./routes/index');
-var users = require('./routes/users');
+var api = require('./routes/api');
 
 app.set('port', (process.env.PORT || 5000));
 
@@ -17,7 +17,7 @@ app.get('/', function(request, response) {
 });
 */
 app.use('/', index);
-app.use('/users', users);
+app.use('/api', api);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

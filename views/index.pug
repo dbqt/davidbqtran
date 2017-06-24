@@ -3,28 +3,33 @@ extends layout
 block content
 
   div.info#project
-    div.row.parentH
-      div.col-sm-4.project-list
+    div.row
+      div.col-lg-4.col-xs-12.project-list
         - var n = 0;
           div.btn-group-vertical.btn-block(role="group")
-            while n < 20
-              div.btn.btn-default.btn-block.project-btn= n++
-      div.col-sm-8.parentH
-        div.well.parentH
-          p content
+            each val in data
+              div.btn.btn-default.btn-block.project-btn(onclick="populateProject("+n+")")= val.title
+              - n++;
+      div.col-lg-8.col-xs-12
+        div.well
+          h2#project-title= data[0].title
+          p#project-subtitle= data[0].subtitle
+          div#project-media
+          p#project-description= data[0].description
+          a#project-link(href=data[0].projectLink) See Project 
 
   div.space
 
-  div.info
-    p Sorry, I'm currently rebuilding the website, it will be back soon!
-    p Meanwhile, you can visit my GitHub and my LinkedIn
+  //div.info
+  //  p Sorry, I'm currently rebuilding the website, it will be back soon!
+  //  p Meanwhile, you can visit my GitHub and my LinkedIn
   
-  div.space
+  //div.space
 
   div#contact.info
-    div.container
-      a.github-button(href="https://github.com/dbqt" data-style="mega" aria-label="Follow @dbqt on GitHub") Visit my GitHub
-    div.container
+    div
+      a.github-button(href="https://github.com/dbqt" data-style="large" aria-label="Follow @dbqt on GitHub") Visit my GitHub
+    div
       a(href="https://ca.linkedin.com/pub/david-binh-quang-tran/47/209/331")
         img(src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x33.png" width="145" http-equivght="33" border="0" alt="View David Binh Quang Tran's profile on LinkedIn")
 
