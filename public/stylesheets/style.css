@@ -34,6 +34,19 @@ a {
   font-size: 25px;
 }
 
+@media (max-width: 623px) {
+    #title {
+      margin-top: 48px;
+        font-size: 20px;
+    }
+
+    #subtitle{
+      font-size: 14px;
+    }
+}
+
+
+
 #contact {
   vertical-align: middle;
 }
