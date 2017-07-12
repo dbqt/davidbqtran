@@ -6,6 +6,13 @@ var data = [
         media:"YAjtUVReG1Q",
         mediaType:"youtube"
     },
+    {   title:"HoloPong",
+        subtitle:"Pong for Hololens created during a Mini-hackathon (half a day)",
+        description:"A small Pong game for the Hololens. It uses the user's gaze to control the paddle and the hand gesture to start a game. This was created during a mini-hackathon of half a day.",
+        projectLink:"https://github.com/dbqt/HoloPong",
+        media:"V7G0aad1oZc",
+        mediaType:"youtube"
+    },
     {   title:"Project AVA",
         subtitle:"Augmented Virtual Assistant - Hack The North 2016",
         description:"AVA, also known as Augmented Virtual Assistant, is a portable companion utilizing the Pepper's Ghost Illusion concept from more than a hundred years ago. Hack The North is one of the largest hackathon of 36h in Canada with over 1000 participants.",
