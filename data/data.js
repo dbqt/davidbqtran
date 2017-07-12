@@ -1,7 +1,7 @@
 var data = [
     {   title:"VRcade",
         subtitle:"Retro games in VR",
-        description:"The goal was to take 3 retro games and reimagine them in virtual reality. We took Tetris, Asteroids and Minesweeper, and we turned each of them into a few minutes virtual reality experience.",
+        description:"The goal was to take 3 retro games and reimagine them in virtual reality. We took Tetris, Asteroids and Minesweeper, and we turned each of them into a few minutes virtual reality experience for the HTC Vive using unity3D.",
         projectLink:"https://github.com/dbqt/VRcade",
         media:"YAjtUVReG1Q",
         mediaType:"youtube"
@@ -15,7 +15,7 @@ var data = [
     },
     {   title:"Project AVA",
         subtitle:"Augmented Virtual Assistant - Hack The North 2016",
-        description:"AVA, also known as Augmented Virtual Assistant, is a portable companion utilizing the Pepper's Ghost Illusion concept from more than a hundred years ago. Hack The North is one of the largest hackathon of 36h in Canada with over 1000 participants.",
+        description:"AVA, also known as Augmented Virtual Assistant, is a portable companion utilizing the Pepper's Ghost Illusion concept from more than a hundred years ago. It can help you with the weather, the time, translation and more! Hack The North is one of the largest hackathon of 36h in Canada with over 1000 participants.",
         projectLink:"https://github.com/dbqt/ProjectAVA-HackTheNorth",
         media:"ghabkmMT5IA",
         mediaType:"youtube"
