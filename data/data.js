@@ -10,7 +10,7 @@ var data = [
         subtitle:"Pong for Hololens created during a Mini-hackathon (half a day)",
         description:"A small Pong game for the Hololens. It uses the user's gaze to control the paddle and the hand gesture to start a game. This was created during a mini-hackathon of half a day.",
         projectLink:"https://github.com/dbqt/HoloPong",
-        media:"V7G0aad1oZc",
+        media:"zW_xIZ1CW-A",
         mediaType:"youtube"
     },
     {   title:"Project AVA",
