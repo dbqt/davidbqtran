@@ -3,7 +3,7 @@ var data = [
         subtitle:"Retro games in VR",
         description:"The goal was to take 3 retro games and reimagine them in virtual reality. We took Tetris, Asteroids and Minesweeper, and we turned each of them into a few minutes virtual reality experience for the HTC Vive using unity3D.",
         projectLink:"https://github.com/dbqt/VRcade",
-        media:"YAjtUVReG1Q",
+        media:"9-omOJ3AqsI",
         mediaType:"youtube"
     },
     {   title:"HoloPong",
